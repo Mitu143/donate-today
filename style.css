@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-size: cover;
+    background-color: white;
+    background-repeat: no-repeat;
+    font-family: poppins;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.top-sec {
+    background-image: url(images/donation4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-sec h1 {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 65px;
+    margin: 15px;
+}
+
+.top-sec p {
+    text-align: center;
+    color: white;
+    width: 600px;
+}
+
+#top-pera {
+    display: flex;
+    justify-content: center;
+}
+
+.btn1 {
+    background-color: #ff4757;
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 20px;
+    width: 160px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    margin: 20px 40%;
+    box-shadow: 1px 2px 8px #000;
+    padding: 12px 10px;
+}
+
+.dnt-blog h1 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    margin: 100px 0 30px;
+}
+
+.dnt-blog p {
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    color: rgb(101, 98, 98);
+}
+
+.donate-tk {
+    display: flex;
+    margin: 0%;
+    justify-content: center;
+    gap: 15px;
+}
+
+.donate-tk div {
+    width: 130px;
+    height: 80px;
+    color: #707070;
+    background-color: #d0cece2e;
+    color: #565555b4;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 40px;
+    border-radius: 5px;
+}
+
+#active {
+    background-color: #ff595949;
+    border: 3px solid #FF5959;
+    border-radius: 5px;
+    color: #FF5959;
+}
+
+.input-amount {
+    border: none;
+    text-align: center;
+    font-size: 18px;
+}
+
+hr {
+    width: 715px;
+    margin-bottom: 40px;
+}
+
+#btn-cntr {
+    display: flex;
+    justify-content: center;
+}
+
+.btn2 {
+    background-color: #ff4757;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 500;
+    width: 160px;
+    padding: 12px 10px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+
+.dnt-plan {
+    margin: 100px;
+}
+
+.dnt-plan h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    margin: 100px 0 30px;
+}
+
+.dnt-plan p {
+    text-align: center;
+    width: 500;
+    color: rgb(101, 98, 98);
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.plan-flex {
+    display: flex;
+    gap: 20px;
+}
+
+.plan-flex div {
+    text-align: center;
+    width: 350px;
+    height: 340px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.plan-flex p {
+    width: 320px;
+}
+
+#food {
+    background-color: #4F9DA61A;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+
+#shelter {
+    background-color: #FF59591A;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+
+#education {
+    background-color: #FFF4D6;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
